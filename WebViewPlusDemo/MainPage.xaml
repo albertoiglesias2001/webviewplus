@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:WebViewPlusDemo"
+             xmlns:visualnet="clr-namespace:WebViewPlus;assembly=WebViewPlus"
+             x:Class="WebViewPlusDemo.MainPage">
+
+    <StackLayout>
+
+        <visualnet:WebViewPlus  Source="http://www.google.com" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></visualnet:WebViewPlus>
+
+    </StackLayout>
+
+</ContentPage>
+    
